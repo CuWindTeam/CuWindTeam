@@ -496,6 +496,58 @@ ul, li{
 }
 /* End of competitions */
 
+/* Personal Pages */
+
+#personal_content .personal_content{
+  flex-direction: column;
+  text-align: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+#personal_content .section-title{
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--cu_gold);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-align:center;
+  line-height: 4.25rem;
+
+}
+
+#personal_content .section-title-position{
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--cu_light_gray);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-align:center;
+  line-height: 4.25rem;
+
+}
+
+#personal_content .personal_content-top p{
+  font-size: 1.4rem;
+  margin-top:5px;
+  line-height:2rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem
+
+}
+#personal_content .personal_content img{
+
+	border: 5px solid var(--cu_light_gray);
+	width:200px;
+}
+
+
+/* End of Personal Pages */
+
+
 /*  Key Frames */
 @keyframes hamburger_puls {
 	0% {
