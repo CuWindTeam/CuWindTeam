@@ -119,12 +119,6 @@ img {
 /* End of Hero Section */
 
 /* Team Members */
-.avatar {
-  vertical-align: middle;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-}
 
 #team_members .team_members{
   flex-direction: column;
@@ -343,6 +337,164 @@ ul, li{
 	}
 }
 /* End of Team Members */
+
+
+/* Competitions */
+
+#competitions .competitions{
+  flex-direction: column;
+  text-align: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+#competitions .section-title{
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--cu_gold);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-align:center;
+  line-height: 4.25rem;
+
+}
+
+#competitions .comp-top p{
+  font-size: 1.4rem;
+  margin-top:5px;
+  line-height:2rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem
+
+}
+
+.comp_card-decks{
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+	margin-left: 20px;
+}
+
+
+.comp_card-decks .comp_card{
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	overflow:hidden;
+	padding: 15px;
+	width: 350px;
+	height:400px;
+	margin: 15px;
+	text-align: center;
+	color: #fff;
+	border: 5px solid var(--cu_light_gray);
+	background-color: var(--cu_light_gray);
+	box-shadow:0 1px 1px rgba(0,0,0,0.1),
+						 0 2px 2px rgba(0,0,0,0.1),
+						 0 4px 4px rgba(0,0,0,0.1),
+						 0 8px 8px rgba(0,0,0,0.1),
+						 0 16px 16px rgba(0,0,0,0.1),
+
+
+}
+
+.comp_card-decks .comp_card:before{
+	content: '';
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 110%;
+	background-size: cover;
+	background-position: center;
+	transition: transform calc(700ms*1.5) cubic-bezier(0.19,1,0.22,1);
+	pointer-events: none;
+
+}
+
+.comp_card-decks .comp_card:nth-child(1):before{
+	background-image: url(images/2021_2022/team_photos/turbine.jpeg);
+}
+.comp_card-decks .comp_card:nth-child(2):before{
+	background-image: url(images/2021_2022/team_photos/windfarm.jpeg);
+}
+.comp_card-decks .comp_card:nth-child(3):before{
+	background-image: url(images/2021_2022/team_photos/connection.jpeg);
+}
+
+.comp_card-decks .comp_card:after{
+	content: '';
+	position: absolute;
+	display: block;
+	top:0;
+	left: 0;
+	width:100%;
+	height: 200%;
+	pointer-events: none;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, 88.7%,rgba(0,0,0,0.762) 94.1%,rgba(0,0,0,0.79) 100%);
+	transform:translateY(-50%);
+}
+
+.comp_card_content{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding:16px;
+	z-index:1;
+	transition: transform 700ms cubic-bezier(0.19,1,0.22,1);
+}
+
+
+.comp_card_content .comp_card_title{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+
+.comp_card_content p{
+	margin: 16px 0;
+
+}
+
+
+.comp_card_content .comp_card_desc{
+	font-size: 14px;
+	color:#bbbbbf;
+	line-height:1.4;
+}
+
+@media (hover:hover) and (min-width:600px){
+	.comp_card_content{
+		transform: translateY(calc(100% - 40px));
+	}
+	.comp_card:hover,
+	.comp_card:focus-within{
+		align-items: center;
+	}
+
+	.comp_card:hover:before,
+	.comp_card:focus-within:before{
+		transform: translateY(-15px);
+	}
+
+	.comp_card:hover:after,
+	.comp_card:focus-within:after{
+		transform: translateY(-50%);
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.009) 11.7%, rgba(0,0,0,0.034) 22.1%, rgba(0,0,0,0.072) 31.2%,rgba(0,0,0,0.123) 39.4%,rgba(0,0,0,0.182) 46.6%, rgba(0,0,0,0.249) 53.1%, rgba(0,0,0,0.32) 58.9%, rgba(0,0,0,0.394) 64.3%, rgba(0,0,0,0.468) 69.3%,rgba(0,0,0,0.54) 74.1%,rgba(0,0,0,0.607) 78.8%,rgba(0,0,0,0.668) 83.6%,rgba(0,0,0,0.721) 88.7%,rgba(0,0,0,0.762) 94.1%,rgba(0,0,0,0.79) 100%);
+
+	}
+
+	.comp_card:hover .comp_card_content,
+	.comp_card:focus-within .comp_card_content{
+		transform: translateY(0);
+	}
+}
+/* End of competitions */
 
 /*  Key Frames */
 @keyframes hamburger_puls {
