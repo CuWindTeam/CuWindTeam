@@ -155,13 +155,11 @@ img {
 
 }
 
-#team_members .card-decks{
+.card-decks{
   display:flex;
   justify-content: center;
   flex-wrap:wrap;
 	margin-left: 20px;
-
-
 }
 
 a, a:hover{
@@ -185,7 +183,7 @@ ul, li{
 	margin: 15px;
 	text-align: center;
 	color: #fff;
-	border: 5px solid var(--cu_gold);
+	border: 5px solid var(--cu_light_gray);
 	background-color: var(--cu_light_gray);
 	box-shadow:0 1px 1px rgba(0,0,0,0.1),
 						 0 2px 2px rgba(0,0,0,0.1),
@@ -211,19 +209,43 @@ ul, li{
 }
 
 .card-decks .card:nth-child(1):before{
-	background-image: url(images/2021_2022/team_photos/claire.jpeg);
+	background-image: url(images/2021_2022/team_photos/roark.jpeg);
 }
 .card-decks .card:nth-child(2):before{
-	background-image: url(images/2021_2022/team_photos/simon.jpeg);
+	background-image: url(images/2021_2022/team_photos/claire.jpeg);
 }
 .card-decks .card:nth-child(3):before{
-	background-image: url(images/2021_2022/team_photos/luke.jpeg);
+	background-image: url(images/2021_2022/team_photos/alec.jpeg);
 }
 .card-decks .card:nth-child(4):before{
-	background-image: url(images/2021_2022/team_photos/erik.jpeg);
+	background-image: url(images/2021_2022/team_photos/simon.jpeg);
 }
 .card-decks .card:nth-child(5):before{
+	background-image: url(images/2021_2022/team_photos/luke.jpeg);
+}
+.card-decks .card:nth-child(6):before{
+	background-image: url(images/2021_2022/team_photos/erik.jpeg);
+}
+.card-decks .card:nth-child(7):before{
 	background-image: url(images/2021_2022/team_photos/kiro.jpeg);
+}
+.card-decks .card:nth-child(8):before{
+	background-image: url(images/2021_2022/team_photos/rhett.jpeg);
+}
+.card-decks .card:nth-child(9):before{
+	background-image: url(images/2021_2022/team_photos/graham.jpeg);
+}
+.card-decks .card:nth-child(10):before{
+	background-image: url(images/2021_2022/team_photos/charles.jpeg);
+}
+.card-decks .card:nth-child(11):before{
+	background-image: url(images/2021_2022/team_photos/anika.jpeg);
+}
+.card-decks .card:nth-child(12):before{
+	background-image: url(images/2021_2022/team_photos/aaron.jpeg);
+}
+.card-decks .card:nth-child(13):before{
+	background-image: url(images/2021_2022/team_photos/mariam.jpeg);
 }
 
 .card-decks .card:after{
@@ -235,7 +257,7 @@ ul, li{
 	width:100%;
 	height: 200%;
 	pointer-events: none;
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.009) 11.7%, rgba(0,0,0,0.034) 22.1%, rgba(0,0,0,0.072) 31.2%,rgba(0,0,0,0.123) 39.4%,rgba(0,0,0,0.182) 46.6%, rgba(0,0,0,0.249) 53.1%, rgba(0,0,0,0.32) 58.9%,rgba(0,0,0,0.394) 64.3%, rgba(0,0,0,0.468) 69.3%,rgba(0,0,0,0.54) 74.1%,rgba(0,0,0,0.607) 78.8%,rgba(0,0,0,0.668) 83.6%,rgba(0,0,0,0.721) 88.7%,rgba(0,0,0,0.762) 94.1%,rgba(0,0,0,0.79) 100%);
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, 88.7%,rgba(0,0,0,0.762) 94.1%,rgba(0,0,0,0.79) 100%);
 	transform:translateY(-50%);
 }
 
@@ -255,11 +277,39 @@ ul, li{
 	font-weight: bold;
 	line-height: 1.2;
 }
+
+.card_content .card_position{
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 1.2;
+}
+
 .card_content p{
-	margin: 16px 0px;
+	margin: 16px 0;
 
 }
 
+.social-icon li a{
+	font-size: 19px;
+	color: #fff;
+	transition: all 0.5s;
+}
+
+.social-icon li a i{
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 50%;
+	text-align: center;
+	background-color: var(--cu_gold);
+	transition: all 0.3s;
+}
+
+.social-icon li:hover i{
+	color:#fff;
+	transform: translateY(-8px);
+
+}
 .card_content .card_desc{
 	font-size: 14px;
 	color:#bbbbbf;
@@ -268,7 +318,7 @@ ul, li{
 
 @media (hover:hover) and (min-width:600px){
 	.card_content{
-		transform: translateY(call(100% - 50px));
+		transform: translateY(calc(100% - 50px));
 	}
 	.card:hover,
 	.card:focus-within{
@@ -283,10 +333,12 @@ ul, li{
 	.card:hover:after,
 	.card:focus-within:after{
 		transform: translateY(-50%);
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.009) 11.7%, rgba(0,0,0,0.034) 22.1%, rgba(0,0,0,0.072) 31.2%,rgba(0,0,0,0.123) 39.4%,rgba(0,0,0,0.182) 46.6%, rgba(0,0,0,0.249) 53.1%, rgba(0,0,0,0.32) 58.9%, rgba(0,0,0,0.394) 64.3%, rgba(0,0,0,0.468) 69.3%,rgba(0,0,0,0.54) 74.1%,rgba(0,0,0,0.607) 78.8%,rgba(0,0,0,0.668) 83.6%,rgba(0,0,0,0.721) 88.7%,rgba(0,0,0,0.762) 94.1%,rgba(0,0,0,0.79) 100%);
+
 	}
 
-	.card:hover .content,
-	.card:focus-within .content{
+	.card:hover .card_content,
+	.card:focus-within .card_content{
 		transform: translateY(0);
 	}
 }
