@@ -40,7 +40,7 @@ img {
 }
 #header .header {
 	min-height: 8vh;
-	background-color: rgba(31, 30, 30, 0.24);
+	background-color: var(--cu_dark_gray);
 	transition: 0.3s ease background-color;
 }
 #header .nav-bar {
@@ -131,8 +131,8 @@ img {
 	background-color: white;
 	z-index: -1;
 }
-#header .hamburger .bar::after,
-#header .hamburger .bar::before {
+#header .hamburger .bar:after,
+#header .hamburger .bar:before {
 	content: '';
 	position: absolute;
 	height: 100%;
@@ -142,16 +142,16 @@ img {
 	transition: 0.3s ease;
 	transition-property: top, bottom;
 }
-#header .hamburger .bar::after {
+#header .hamburger .bar:after {
 	top: 8px;
 }
-#header .hamburger .bar::before {
+#header .hamburger .bar:before {
 	bottom: 8px;
 }
-#header .hamburger.active .bar::before {
+#header .hamburger.active .bar:before {
 	bottom: 0;
 }
-#header .hamburger.active .bar::after {
+#header .hamburger.active .bar:after {
 	top: 0;
 }
 /* End Header section */
