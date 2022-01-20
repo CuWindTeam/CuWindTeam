@@ -114,6 +114,256 @@ img {
 /* End of Hero Section */
 
 
+/* Turbine_hero Section */
+#turbine_hero{
+  background-image: url(./images/standard_images/turbine/turbine_turbine_hero.jpg);
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+}
+
+#turbine_hero::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.7;
+	z-index: -1;
+}
+
+#turbine_hero .turbine_hero {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 50px;
+	justify-content: flex-start;
+}
+
+#turbine_hero h1{
+  display:block;
+  width: fit-content;
+  font-size:4rem;
+  position: relative;
+  color: transparent;
+  animation: text_reveal .5s ease forwards;
+  animation-delay: 1s;
+}
+
+#turbine_hero h1:nth-child(1){
+  animation-delay:1s;
+}
+
+#turbine_hero h1:nth-child(2){
+  animation:text_reveal_name .5 ease forwards;
+  animation-delay:2s;
+}
+
+#turbine_hero h1 span{
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:0;
+  background-color:var(--cu_gold);
+  animation: text_reveal_box 1s ease;
+  animation-delay: .3s;
+}
+
+#turbine_hero h1:nth-child(1) span{
+  animation-delay:.5s;
+}
+#turbine_hero h1:nth-child(2) span{
+  animation-delay:1.5s;
+}
+#turbine_hero .cta{
+  display: inline-block;
+  padding: 10px 30px;
+  color: white;
+  border:2px solid var(--cu_gold);
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 20px;
+  transition: 0.3s ease background-color;
+  transition-property: background-color, color;
+}
+
+#turbine_hero .cta:hover{
+  color: white;
+  background-color: var(--cu_gold);
+}
+/* End of Turbine_hero Section */
+
+
+/* Windfarm_hero Section */
+#windfarm_hero{
+  background-image: url(./images/standard_images/windfarm/windfarm_windfarm_hero.jpg);
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+}
+
+#windfarm_hero::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.7;
+	z-index: -1;
+}
+
+#windfarm_hero .windfarm_hero {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 50px;
+	justify-content: flex-start;
+}
+
+#windfarm_hero h1{
+  display:block;
+  width: fit-content;
+  font-size:4rem;
+  position: relative;
+  color: transparent;
+  animation: text_reveal .5s ease forwards;
+  animation-delay: 1s;
+}
+
+#windfarm_hero h1:nth-child(1){
+  animation-delay:1s;
+}
+
+#windfarm_hero h1:nth-child(2){
+  animation:text_reveal_name .5 ease forwards;
+  animation-delay:2s;
+}
+
+#windfarm_hero h1 span{
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:0;
+  background-color:var(--cu_gold);
+  animation: text_reveal_box 1s ease;
+  animation-delay: .3s;
+}
+
+#windfarm_hero h1:nth-child(1) span{
+  animation-delay:.5s;
+}
+#windfarm_hero h1:nth-child(2) span{
+  animation-delay:1.5s;
+}
+#windfarm_hero .cta{
+  display: inline-block;
+  padding: 10px 30px;
+  color: white;
+  border:2px solid var(--cu_gold);
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 20px;
+  transition: 0.3s ease background-color;
+  transition-property: background-color, color;
+}
+
+#windfarm_hero .cta:hover{
+  color: white;
+  background-color: var(--cu_gold);
+}
+/* End of Windfarm_hero Section */
+
+/* Connections_hero Section */
+#connections_hero{
+  background-image: url(./images/standard_images/connections/connections_connections_hero.jpg);
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+}
+
+#connections_hero::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.7;
+	z-index: -1;
+}
+
+#connections_hero .connections_hero {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 50px;
+	justify-content: flex-start;
+}
+
+#connections_hero h1{
+  display:block;
+  width: fit-content;
+  font-size:4rem;
+  position: relative;
+  color: transparent;
+  animation: text_reveal .5s ease forwards;
+  animation-delay: 1s;
+}
+
+#connections_hero h1:nth-child(1){
+  animation-delay:1s;
+}
+
+#connections_hero h1:nth-child(2){
+  animation:text_reveal_name .5 ease forwards;
+  animation-delay:2s;
+}
+
+#connections_hero h1 span{
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:0;
+  background-color:var(--cu_gold);
+  animation: text_reveal_box 1s ease;
+  animation-delay: .3s;
+}
+
+#connections_hero h1:nth-child(1) span{
+  animation-delay:.5s;
+}
+#connections_hero h1:nth-child(2) span{
+  animation-delay:1.5s;
+}
+#connections_hero .cta{
+  display: inline-block;
+  padding: 10px 30px;
+  color: white;
+  border:2px solid var(--cu_gold);
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 20px;
+  transition: 0.3s ease background-color;
+  transition-property: background-color, color;
+}
+
+#connections_hero .cta:hover{
+  color: white;
+  background-color: var(--cu_gold);
+}
+/* End of Connections_hero Section */
+
 /* sub teams */
 
 #subteams .subteams{
