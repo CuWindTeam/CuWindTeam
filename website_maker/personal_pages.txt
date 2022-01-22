@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cu Wind Team</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/standard_images/team_logo.jpeg">
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../styles_##YEARS##.css">
+
+
+  </head>
+  <body>
+    <!-- Header -->
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="../##YEARS##.html">
+              <img src="../../images/standard_images/logo_icon.png" class="logo_icon">
+            </a>
+          </div>
+          <div class="nav-list">
+            <div class="hamburger">
+              <div class="bar"></div>
+            </div>
+            <ul>
+              <li><a href="../index.html" data-after="ALL Years">All Years</a></li>
+              <li><a href="../##YEARS##.html" data-after="The Team">Team</a></li>
+              ##COMPETITIONS##
+            </ul>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript" src="../../app.js"></script>
+    </section>
+    <!-- End Header -->
+
+    <section id="personal_content">
+      <div class = "personal_content">
+      <img src="../images/team_photos/##PHOTO##" alt ="##NAME##">
+
+
+
+      <div class="personal_content-top">
+        <p> </p>
+        <h1 class="section-title">##NAME##</h1>
+        <h2 class="section-title-position">##POSITION##</h2>
+
+        <div class="social-icon">
+          <ul>
+	     ##LINKEDIN##
+	     ##EMAIL##
+          </ul>
+        </div>
+
+        ##DESCRIPTION##
+
+	##RESPONSIBILITIES##
+      </div>
+
+    </div>
+    </section>
+
+  </body>
+</html>
