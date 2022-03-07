@@ -17,7 +17,14 @@ html {
 a {
 	text-decoration: none;
 }
+a, a:hover{
+	text-decoration: none;
+}
 
+ul, li{
+	display: inline-block;
+	list-style: none;
+}
 
 .logo_icon{
 	width:80px;
@@ -165,7 +172,7 @@ img {
 
 /* Hero Section */
 #hero{
-  background-image: url(./images/standard_images/hero_image.jpg);
+  background-image: url(./standard_images/hero_image.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -251,7 +258,67 @@ img {
 }
 /* End of Hero Section */
 
+/* Index Page */
+#all_years .team_photos img{
+	border: 5px solid var(--cu_light_gray);
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+#top-part .team-top h1{
+	font-size: 4rem;
+  font-weight: bold;
+  color: var(--cu_gold);
+  margin-bottom: 10px;
+	margin-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-align:center;
+  line-height: 4.25rem;
+}
+
+#top-part .team-top p{
+  font-size: 1.4rem;
+  margin-top:5px;
+  line-height:2rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+	text-align:center;
+
+}
+#top-part{
+	margin: 0;
+	padding: 0;
+}
+#all-years{
+	margin: 0;
+	padding: 0;
+}
+
+#all_years .team_photos .cta{
+	display:flex;
+	align:center;
+	padding: 10px 30px;
+	color: var(--cu_gold);
+	border:2px solid var(--cu_gold);
+	font-size: 4rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.2rem;
+	margin-top: 10px;
+	transition: 0.3s ease background-color;
+	transition-property: background-color, color;
+
+}
+#all_years .team_photos .cta:hover{
+  color: white;
+  background-color: var(--cu_gold);
+}
+/* End of Index Page */
+
 /* Personal Pages */
+
 
 #personal_content .personal_content{
   flex-direction: column;
@@ -260,6 +327,7 @@ img {
   margin: 0 auto;
   padding: 100px 0;
 }
+/*
 #personal_content .personal_content li{
 	margin: 0;
 	padding: 0;
@@ -267,6 +335,7 @@ img {
   list-style-position: inside;
 
 }
+*/
 #personal_content .section-title{
   font-size: 4rem;
   font-weight: bold;
@@ -356,6 +425,7 @@ img {
 /* End of Personal Pages */
 
 /* Social Icons */
+
 
 .social-icon li a{
 	font-size: 19px;
