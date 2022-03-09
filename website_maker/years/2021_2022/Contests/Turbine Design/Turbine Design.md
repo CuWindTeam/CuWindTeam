@@ -1,6 +1,0 @@
-# ANCHORPOINTBlades
-# ANCHORPOINTNacelle
-# ANCHORPOINTPitching
-# ANCHORPOINTTower
-# ANCHORPOINTFoundation
-# ANCHORPOINTElectrical

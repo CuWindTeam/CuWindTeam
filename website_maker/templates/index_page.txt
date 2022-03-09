@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cu Wind Team</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="standard_images/logo_icon.png">
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+    <!-- Header -->
+    <!--
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="index.html">
+              <img src="standard_images/logo_icon.png" class="logo_icon">
+            </a>
+          </div>
+          <div class="nav-list">
+            <div class="hamburger">
+              <div class="bar"></div>
+            </div>
+            <ul>
+              <li><a href="index.html" data-after="ALL Years">All Years</a></li>
+              ##YEARLINKS##
+            </ul>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript" src="app.js"></script>
+    </section>
+  -->
+    <!-- End Header -->
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>We are the <span></span></h1>
+        <h1> CU Wind Teams <span></span></h1>
+        <a href="#all_years" type="button" class="cta">All Years</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section -->
+
+  <!-- Team Members -->
+  <section id = "top-part">
+    <div class="team-top">
+      <h1 class="section-title">CU Wind Team</h1>
+      ##CUINFO##
+    </div>
+  </section>
+  <section id = "all_years">
+    <div class="all_years container">
+
+    <div class="team_photos">
+      ##YEARLINKS##
+    </div>
+
+    </div>
+
+    </div>
+  </section>
+
+  </body>
+</html>

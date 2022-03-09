@@ -1,0 +1,1 @@
+I joined the CU CWC team because of my interest in renewable energy and the opportunity to work with like-minded students. Furthermore, I wanted to be a part of a team that works on a design project and a project management project.
