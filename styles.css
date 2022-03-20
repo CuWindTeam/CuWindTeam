@@ -426,7 +426,27 @@ img {
   letter-spacing: 0.05rem;
 }
 
+#personal_content .personal_content-top .team_photos .cta{
+	display:flex;
+	align:center;
+	padding: 10px 20px;
+	color: var(--cu_gold);
+	border:2px solid var(--cu_gold);
+	font-size: 4rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.2rem;
+	margin-top: 10px;
+	transition: 0.3s ease background-color;
+	transition-property: background-color, color;
+	width:300px;
+	align-content: center;
 
+}
+#personal_content .personal_content-top .team_photos .cta:hover{
+  color: white;
+  background-color: var(--cu_gold);
+}
 /* End of Personal Pages */
 
 /* Social Icons */
