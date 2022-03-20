@@ -214,10 +214,7 @@ img {
 #hero h1:nth-child(2){
   animation-delay:2s;
 }
-#hero h1:nth-child(3){
-  animation:text_reveal_name .5 ease forwards;
-  animation-delay:3s;
-}
+
 
 #hero h1 span{
   position:absolute;
@@ -236,9 +233,7 @@ img {
 #hero h1:nth-child(2) span{
   animation-delay:1.5s;
 }
-#hero h1:nth-child(3) span{
-  animation-delay:2.5s;
-}
+
 #hero .cta{
   display: inline-block;
   padding: 10px 30px;
@@ -376,7 +371,7 @@ img {
 #personal_content h2{
   font-size: 3rem;
   font-weight: bold;
-  color: var(--cu_dark_gray);
+  color: var(--cu_light_gray);
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: .2rem;
@@ -387,7 +382,7 @@ img {
 #personal_content h3{
   font-size: 3rem;
   font-weight: bold;
-  color: var(--cu_light_gray);
+  color: var(--cu_dark_gray);
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: .2rem;
@@ -404,6 +399,8 @@ img {
 	padding-left:10%;
 	padding-right:10%;
 	padding-bottom:10px;
+	text-indent: 30px;
+	text-align: left;
 
 
 }
@@ -506,7 +503,7 @@ img {
 #competitions_content h2{
   font-size: 3rem;
   font-weight: bold;
-  color: var(--cu_dark_gray);
+  color: var(--cu_light_gray);
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: .2rem;
@@ -517,7 +514,7 @@ img {
 #competitions_content h3{
   font-size: 3rem;
   font-weight: bold;
-  color: var(--cu_light_gray);
+  color: var(--cu_dark_gray);
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: .2rem;
@@ -534,6 +531,8 @@ img {
 	padding-left:10%;
 	padding-right:10%;
 	padding-bottom:10px;
+	text-indent: 30px;
+	text-align:left;
 
 
 }
@@ -547,7 +546,7 @@ img {
 #competitions_content .competitions_content-top {
   font-size: 1.4rem;
   margin-top:5px;
-  line-height:2rem;
+  line-height:1.5rem;
   font-weight: 300;
   letter-spacing: 0.05rem;
 }
@@ -565,6 +564,7 @@ img {
   margin-top: 20px;
   transition: 0.3s ease background-color;
   transition-property: background-color, color;
+	align-items: center;
 }
 
 #competitions_content .cta:hover{
@@ -645,7 +645,6 @@ img {
 @keyframes text_reveal_name {
 	100% {
 		color: var(--cu_gold);
-		font-weight: 500;
 	}
 }
 /* End of Key Frames */
@@ -688,16 +687,21 @@ img {
   animation: text_reveal .5s ease forwards;
   animation-delay: 1s;
 }
+#hero20212022 h2{
+  display:block;
+  width: fit-content;
+  font-size:4rem;
+  position: relative;
+  color: transparent;
+  animation: text_reveal_name .5s ease forwards;
+  animation-delay: 3s;
+}
 
 #hero20212022 h1:nth-child(1){
   animation-delay:1s;
 }
 #hero20212022 h1:nth-child(2){
   animation-delay:2s;
-}
-#hero20212022 h1:nth-child(3){
-  animation:text_reveal_name .5 ease forwards;
-  animation-delay:3s;
 }
 
 #hero20212022 h1 span{
@@ -709,7 +713,21 @@ img {
   background-color:var(--cu_gold);
   animation: text_reveal_box 1s ease;
   animation-delay: .3s;
+
 }
+
+#hero20212022 h2 span{
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:0;
+  background-color:var(--cu_gold);
+  animation: text_reveal_box 1s ease;
+  animation-delay: .3s;
+
+}
+
 
 #hero20212022 h1:nth-child(1) span{
   animation-delay:.5s;
@@ -717,7 +735,7 @@ img {
 #hero20212022 h1:nth-child(2) span{
   animation-delay:1.5s;
 }
-#hero20212022 h1:nth-child(3) span{
+#hero20212022 h2:nth-child(3) span{
   animation-delay:2.5s;
 }
 #hero20212022 .cta{
