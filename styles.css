@@ -428,7 +428,132 @@ img {
 
 
 /* End of Personal Pages */
+/* competitions_content Pages */
 
+
+#competitions_content .competitions_content{
+  flex-direction: column;
+  text-align: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+/*
+#personal_content .personal_content li{
+	margin: 0;
+	padding: 0;
+  display: list-item;
+  list-style-position: inside;
+
+}
+*/
+#competitions_content .section-title{
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--cu_gold);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-align:center;
+  line-height: 4.25rem;
+
+}
+
+#competitions_content .competitions_content-title-position{
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--cu_light_gray);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-align:center;
+  line-height: 4.25rem;
+
+}
+
+#competitions_content h1{
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--cu_gold);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-align:center;
+  line-height: 4.25rem;
+
+}
+
+#competitions_content h2{
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--cu_dark_gray);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-align:center;
+  line-height: 4.25rem;
+}
+
+#competitions_content h3{
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--cu_light_gray);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-align:center;
+  line-height: 4.25rem;
+}
+
+#competitions_content .competitions_content-top p{
+  font-size: 1.4rem;
+  margin-top:5px;
+  line-height:2rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+	padding-left:10%;
+	padding-right:10%;
+	padding-bottom:10px;
+
+
+}
+
+
+#competitions_content .competitions_content-top img{
+	border: 5px solid var(--cu_light_gray);
+	width:50%;
+
+}
+#competitions_content .competitions_content-top {
+  font-size: 1.4rem;
+  margin-top:5px;
+  line-height:2rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+}
+
+
+#competitions_content .cta{
+  display: inline-block;
+  padding: 10px 30px;
+  color: var(--cu_gold);
+	border-radius: 25px;
+  border:2px solid var(--cu_gold);
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 20px;
+  transition: 0.3s ease background-color;
+  transition-property: background-color, color;
+}
+
+#competitions_content .cta:hover{
+  color: white;
+  background-color: var(--cu_gold);
+}
+
+
+/* end of competitions */
 /* Social Icons */
 
 
