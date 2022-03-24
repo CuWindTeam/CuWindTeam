@@ -756,3 +756,49 @@ img {
   background-color: var(--cu_gold);
 }
 /* End of Hero Section */
+
+
+/* Collapsible */
+.collapsible {
+  background-color:var(--cu_dark_gray);
+  color: var(--cu_gold);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+	font-size: 3rem;
+	font-weight: bold;
+	color: var(--cu_gold);
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	line-height: 3rem;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: var(--cu_light_gray);
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 15px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.collapsible:after {
+  content: '+'; /* Unicode character for "plus" sign (+) */
+  font-size: 3rem;
+  color: var(--cu_gold);
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "-"; /* Unicode character for "minus" sign (-) */
+}
+/* End of Collapsible */
