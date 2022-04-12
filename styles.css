@@ -587,6 +587,27 @@ img {
 }
 
 
+.button_link_cta{
+  display: inline-block;
+  padding: 10px 30px;
+  color: var(--cu_gold);
+	border-radius: 25px;
+  border:2px solid var(--cu_gold);
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+	line-height: 2.2rem;
+  margin-top: 20px;
+  transition: 0.3s ease background-color;
+  transition-property: background-color, color;
+	align-items: center;
+}
+
+.button_link_cta:hover{
+  color: white;
+  background-color: var(--cu_gold);
+}
+
 /* end of competitions */
 /* Social Icons */
 
